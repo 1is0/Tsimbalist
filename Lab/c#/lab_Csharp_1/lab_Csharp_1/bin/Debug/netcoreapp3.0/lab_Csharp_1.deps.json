@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.0": {
+      "lab_Csharp_1/1.0.0": {
+        "dependencies": {
+          "LoL": "1.0.0"
+        },
+        "runtime": {
+          "lab_Csharp_1.dll": {}
+        }
+      },
+      "LoL/1.0.0": {
+        "runtime": {
+          "LoL.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "lab_Csharp_1/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "LoL/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
