@@ -1,0 +1,72 @@
+﻿<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+    <PropertyGroup>
+        <ProjectGuid>{9A09CF1E-D101-49DC-854B-C61E86BB5790}</ProjectGuid>
+    </PropertyGroup>
+    <ItemGroup>
+        <Projects Include="..\Builder\test\Project1.cbproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="ProjectTask1.cbproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="ProjectTask2.cbproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="RealProjectTask2.cbproj">
+            <Dependencies/>
+        </Projects>
+    </ItemGroup>
+    <ProjectExtensions>
+        <Borland.Personality>Default.Personality.12</Borland.Personality>
+        <Borland.ProjectType/>
+        <BorlandProject>
+            <Default.Personality/>
+        </BorlandProject>
+    </ProjectExtensions>
+    <Target Name="Project1">
+        <MSBuild Projects="..\Builder\test\Project1.cbproj"/>
+    </Target>
+    <Target Name="Project1:Clean">
+        <MSBuild Projects="..\Builder\test\Project1.cbproj" Targets="Clean"/>
+    </Target>
+    <Target Name="Project1:Make">
+        <MSBuild Projects="..\Builder\test\Project1.cbproj" Targets="Make"/>
+    </Target>
+    <Target Name="ProjectTask1">
+        <MSBuild Projects="ProjectTask1.cbproj"/>
+    </Target>
+    <Target Name="ProjectTask1:Clean">
+        <MSBuild Projects="ProjectTask1.cbproj" Targets="Clean"/>
+    </Target>
+    <Target Name="ProjectTask1:Make">
+        <MSBuild Projects="ProjectTask1.cbproj" Targets="Make"/>
+    </Target>
+    <Target Name="ProjectTask2">
+        <MSBuild Projects="ProjectTask2.cbproj"/>
+    </Target>
+    <Target Name="ProjectTask2:Clean">
+        <MSBuild Projects="ProjectTask2.cbproj" Targets="Clean"/>
+    </Target>
+    <Target Name="ProjectTask2:Make">
+        <MSBuild Projects="ProjectTask2.cbproj" Targets="Make"/>
+    </Target>
+    <Target Name="RealProjectTask2">
+        <MSBuild Projects="RealProjectTask2.cbproj"/>
+    </Target>
+    <Target Name="RealProjectTask2:Clean">
+        <MSBuild Projects="RealProjectTask2.cbproj" Targets="Clean"/>
+    </Target>
+    <Target Name="RealProjectTask2:Make">
+        <MSBuild Projects="RealProjectTask2.cbproj" Targets="Make"/>
+    </Target>
+    <Target Name="Build">
+        <CallTarget Targets="Project1;ProjectTask1;ProjectTask2;RealProjectTask2"/>
+    </Target>
+    <Target Name="Clean">
+        <CallTarget Targets="Project1:Clean;ProjectTask1:Clean;ProjectTask2:Clean;RealProjectTask2:Clean"/>
+    </Target>
+    <Target Name="Make">
+        <CallTarget Targets="Project1:Make;ProjectTask1:Make;ProjectTask2:Make;RealProjectTask2:Make"/>
+    </Target>
+    <Import Project="$(BDS)\Bin\CodeGear.Group.Targets" Condition="Exists('$(BDS)\Bin\CodeGear.Group.Targets')"/>
+</Project>

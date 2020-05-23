@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>1899.12.30 00:00:00.000.966,C:\Homework\2 semester\OAiP2\Lab2\Lab2.groupproj=C:\Homework\2 semester\OAiP2\Lab2\ProjectGroup1.groupproj</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.146,C:\Homework\2 semester\OAiP2\Lab2\ProjectGroup1.groupproj=C:\Homework\2 semester\OAiP2\Builder\ProjectGroup1.groupproj</Transaction>
+  </Transactions>
+	<Default.Personality>
+		<Projects ActiveProject="C:\Homework\2 semester\OAiP2\Lab2\RealProjectTask2.cbproj"/>
+	</Default.Personality>
+</BorlandProject>

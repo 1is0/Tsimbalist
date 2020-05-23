@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>1899.12.30 00:00:00.000.813,C:\Homework\2 semester\OAiP2\Lab2\Unit3.cpp=C:\Homework\2 semester\OAiP2\Lab2\Train.cpp</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.161,=C:\Homework\2 semester\OAiP2\Lab2\Unit3.cpp</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.058,=C:\Homework\2 semester\OAiP2\Lab2\Unit3.cpp</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.241,=C:\Homework\2 semester\OAiP2\Lab2\Unit3.cpp</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.213,C:\Homework\2 semester\OAiP2\Builder\Unit6.cpp=C:\Homework\2 semester\OAiP2\Lab2\Task2.cpp</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.856,C:\Homework\2 semester\OAiP2\Lab2\TrainContainer.cpp=C:\Homework\2 semester\OAiP2\Lab2\Unit3.cpp</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.484,C:\Homework\2 semester\OAiP2\Builder\Project2.cbproj=C:\Homework\2 semester\OAiP2\Lab2\ProjectTask2.cbproj</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.378,=C:\Homework\2 semester\OAiP2\Lab2\InputAmountOrNumber.cpp</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.990,C:\Homework\2 semester\OAiP2\Lab2\InputAmountOrNumber.cpp=</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.542,=C:\Homework\2 semester\OAiP2\Lab2\InputAmountOrNumber.cpp</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.856,C:\Homework\2 semester\OAiP2\Lab2\TrainContainer.h=C:\Homework\2 semester\OAiP2\Lab2\Unit3.h</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.213,C:\Homework\2 semester\OAiP2\Builder\Unit6.h=C:\Homework\2 semester\OAiP2\Lab2\Task2.h</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.813,C:\Homework\2 semester\OAiP2\Lab2\Unit3.h=C:\Homework\2 semester\OAiP2\Lab2\Train.h</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.733,C:\Homework\2 semester\OAiP2\Lab2\InputTrain.cpp=C:\Homework\2 semester\OAiP2\Lab2\Unit7.cpp</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.719,=C:\Homework\2 semester\OAiP2\Lab2\Unit7.cpp</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.733,C:\Homework\2 semester\OAiP2\Lab2\InputTrain.h=C:\Homework\2 semester\OAiP2\Lab2\Unit7.h</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.733,C:\Homework\2 semester\OAiP2\Lab2\InputTrain.dfm=C:\Homework\2 semester\OAiP2\Lab2\Unit7.dfm</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.428,=C:\Homework\2 semester\OAiP2\Builder\Unit6.cpp</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.725,C:\Homework\2 semester\OAiP2\Builder\Project2PCH1.h=C:\Homework\2 semester\OAiP2\Lab2\ProjectTask2PCH1.h</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.287,=C:\Homework\2 semester\OAiP2\Builder\Project2PCH1.h</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.213,C:\Homework\2 semester\OAiP2\Builder\Unit6.dfm=C:\Homework\2 semester\OAiP2\Lab2\Task2.dfm</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.720,=C:\Homework\2 semester\OAiP2\Lab2\Unit4.cpp</Transaction>
+  </Transactions>
+</BorlandProject>
